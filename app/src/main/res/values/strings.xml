@@ -2,6 +2,17 @@
     <string name="app_name">Weather</string>
     <string name="weather_app">Weather App</string>
     <string name="check_weather">Check Weather</string>
+    <string name="london">London</string>
+    <string name="dearborn">Dearborn</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="rome">Rome</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="default_city">City</string>
+    <string name="day_5">Day 5</string>
+    <string name="day_4">Day 4</string>
+    <string name="day_3">Day 3</string>
+    <string name="day_2">Day 2</string>
+    <string name="day_1">Day 1</string>
 
     <string-array name="locations">
         <item>Select city…</item>

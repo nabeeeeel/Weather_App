@@ -50,9 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
+            public void onNothingSelected(AdapterView<?> parent) {}
 
         });
 
@@ -93,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
     private void getLocation() {
         try {
             Bundle locations = getIntent().getExtras();
+            if (locations == null) return;
             location = locations.getString(RETURN_MESSAGE);
         } catch (Exception e) {
             e.printStackTrace();
